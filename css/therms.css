@@ -1,0 +1,65 @@
+.therms {
+    background-color: #F2F2F2;
+}
+
+.thermsBlock {
+    display: grid;
+    grid-template-columns: 2fr 30px 4fr;
+}
+
+.thermsBlock .date p {
+    text-align: end;
+    padding-right: 50px;
+    font-size: 20px;
+}
+
+.dateMob {
+    display: none;
+}
+
+.round {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: #124e78;
+    border-radius: 50%;
+}
+
+.round-first::after {
+    position: absolute;
+    border-left: 2px solid #dcddde;
+    width: 1px;
+    bottom: -300px;
+    content: "";
+    left: 9px;
+    top: 20px;
+}
+
+.round::after {
+    position: absolute;
+    border-left: 2px solid #dcddde;
+    width: 1px;
+    bottom: -500px;
+    content: "";
+    left: 9px;
+    top: 20px;
+}
+
+.round-last::after {
+    position: absolute;
+    border-left: 2px solid #dcddde;
+    width: 1px;
+    bottom: -100px;
+    content: "";
+    left: 9px;
+    top: 20px;
+}
+
+.therms .textBlock {
+    padding-left: 30px;
+    padding-bottom: 100px;
+}
+
+.textBlock p {
+    margin: 30px 10px 0 0;
+}

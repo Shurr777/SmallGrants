@@ -1,0 +1,56 @@
+a.transparent {
+    display: block;
+    background-color: transparent;
+    border: 2px solid white;
+    box-sizing: content-box;
+    margin-left: 30px;
+}
+
+.titlePage {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+    url("../images/NewHeader.jpg");
+    -webkit-background-size: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 96vh;
+    object-fit: cover;
+}
+
+.titleContainer {
+    width: 60vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.titleBlock {
+    color: white;
+}
+
+.titleBlock h1 {
+    padding-top: 50px;
+    font-size: 42px;
+    line-height: 36px;
+    width: 100%;
+}
+
+.titleBlock .titleTextBlock {
+    padding-top: 20px;
+}
+
+.titleBlock p {
+    padding-top: 10px;
+    font-weight: 700;
+}
+
+.titleBlock .titleDate {
+    padding-top: 30px;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.titleButtonBlock {
+    display: flex;
+    padding-top: 70px;
+}

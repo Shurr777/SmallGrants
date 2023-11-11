@@ -1,0 +1,57 @@
+/*--- Header ---*/
+
+.header {
+    position: fixed;
+    background-color: #fff;
+    z-index: 100;
+    width: 100%;
+}
+
+.headerContainer {
+    background-color: #fff;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr 260px;
+}
+
+
+.logo {
+    padding: 0;
+    width: 100px;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+
+.logo a {
+    padding: 15px 0;
+    width: 150px;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu a {
+    color: #124e78;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.menu a:active {
+    text-decoration: underline;
+}
+
+.buttonContainer {
+    margin-top: 40px;
+    height: 40px;
+    margin-left: 15px;
+}

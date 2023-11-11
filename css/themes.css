@@ -1,0 +1,27 @@
+.themes {
+    background-color: #fff;
+    padding-bottom: 80px;
+}
+
+.themes .themesCardContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.themes .themesCard {
+    box-shadow: rgba(0, 0, 0, 0.1) 0 0 10px 0;
+    padding: 30px 30px 40px;
+    margin: 20px;
+}
+
+.themes .themesCard h3 {
+    font-size: 22px;
+    padding-bottom: 10px;
+    line-height: 1.35;
+}
+
+.themes .themesCard p {
+    font-size: 18px;
+    line-height: 1.55;
+    font-weight: 300;
+}
